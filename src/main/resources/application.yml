@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: reactive-billing-api
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/billing
+    username: billing
+    password: billing
+  sql:
+    init:
+      mode: always        # runs schema.sql at startup (R2DBC has no auto DDL)
+
+logging:
+  level:
+    com.billing: INFO
