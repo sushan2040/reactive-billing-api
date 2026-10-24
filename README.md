@@ -61,3 +61,4 @@ Tests (no Docker needed): `./gradlew test`
 - Flyway migrations instead of `schema.sql`
 - Integration tests with Testcontainers
 - Pagination and optimistic locking
+# reactive-billing-api
